@@ -214,7 +214,7 @@ function createToggle(option, parent)
 		Text = " " .. option.text,
 		TextSize = 17,
 		Font = Enum.Font.Gotham,
-		TextColor3 = Color3.fromRGB(255, 255, 255),
+			TextColor3 = Color3.fromRGB(255, 255, 255),
 		TextXAlignment = Enum.TextXAlignment.Left,
 		Parent = parent.content
 	})
@@ -320,7 +320,7 @@ function createButton(option, parent)
 		Text = " " .. option.text,
 		TextSize = 17,
 		Font = Enum.Font.Gotham,
-		TextColor3 = Color3.fromRGB(255, 0, 255),
+		TextColor3 = Color3.fromRGB(255, 255, 255),
 		Parent = parent.content
 	})
 	
@@ -330,7 +330,7 @@ function createButton(option, parent)
 		Size = UDim2.new(1, -12, 1, -10),
 		BackgroundTransparency = 1,
 		Image = "rbxassetid://3570695787",
-		ImageColor3 = Color3.fromRGB(40, 40, 40),
+		ImageColor3 = Color3.fromRGB(255, 0, 255),
 		ScaleType = Enum.ScaleType.Slice,
 		SliceCenter = Rect.new(100, 100, 100, 100),
 		SliceScale = 0.02,
