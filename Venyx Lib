@@ -14,6 +14,7 @@ local utility = {}
 -- themes
 local objects = {}
 local themes = {
+    Custom = Glow = Color3.fromRGB((255, 0, 255)
 	Background = Color3.fromRGB(24, 24, 24), 
 	Glow = Color3.fromRGB((255, 0, 255), 
 	Accent = Color3.fromRGB(10, 10, 10), 
@@ -352,7 +353,7 @@ do
 			Size = UDim2.new(1, -142, 1, -56),
 			CanvasSize = UDim2.new(0, 0, 0, 466),
 			ScrollBarThickness = 3,
-			ScrollBarImageColor3 = Color3.fromRGB(255, 0, 255),
+			ScrollBarImageColor3 = themes.Custom,
 			Visible = false
 		}, {
 			utility:Create("UIListLayout", {
@@ -754,7 +755,7 @@ do
 				Size = UDim2.new(0, 40, 0, 16),
 				ZIndex = 2,
 				Image = "rbxassetid://5028857472",
-				ImageColor3 = Color3.fromRGB(255, 0, 255),
+				ImageColor3 = themes.Custom,
 				ScaleType = Enum.ScaleType.Slice,
 				SliceCenter = Rect.new(2, 2, 298, 298)
 			}, {
@@ -1040,7 +1041,7 @@ do
 				Size = UDim2.new(0, 40, 0, 14),
 				ZIndex = 2,
 				Image = "rbxassetid://5028857472",
-				ImageColor3 = Color3.fromRGB(255, 255, 255),
+				ImageColor3 = themes.Custom,
 				ScaleType = Enum.ScaleType.Slice,
 				SliceCenter = Rect.new(2, 2, 298, 298)
 			})
@@ -1585,7 +1586,7 @@ do
 					Size = UDim2.new(1, 0, 0, 4),
 					ZIndex = 3,
 					Image = "rbxassetid://5028857472",
-					ImageColor3 = Color3.fromRGB(255, 0, 255),
+					ImageColor3 = themes.Custom,
 					ScaleType = Enum.ScaleType.Slice,
 					SliceCenter = Rect.new(2, 2, 298, 298)
 				}, {
@@ -1752,7 +1753,7 @@ do
 					CanvasSize = UDim2.new(0, 0, 0, 120),
 					ZIndex = 2,
 					ScrollBarThickness = 4,
-					ScrollBarImageColor3 = Color3.fromRGB(255, 0, 255)
+					ScrollBarImageColor3 = themes.Custom
 				}, {
 					utility:Create("UIListLayout", {
 						SortOrder = Enum.SortOrder.LayoutOrder,
@@ -2167,4 +2168,5 @@ do
 	end
 end
 
+print("dino was here :\)")
 return library
